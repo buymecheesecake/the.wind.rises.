@@ -1,0 +1,12 @@
+
+{
+  "manifest_version": 3,
+  "name": "Text Drift",
+  "version": "1.0",
+  "description": "Let your letters float off into the digital breeze.",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }]
+}
